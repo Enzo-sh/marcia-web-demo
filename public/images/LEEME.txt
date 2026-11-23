@@ -1,0 +1,4 @@
+Reemplazá estas fotos (JPG, ~1600px de ancho, <300 KB) usando estos nombres:
+hero, entradas, napolitanas, molde, empanadas, pizzandwich, salado, dulces, cafe, tragos, vinos, cervezas, bebidas  -> <nombre>.jpg
+Si el archivo no existe, el sitio muestra un recuadro provisorio.
+Cuando uses fotos reales de Marcia, poné photosAreReal = true en src/config/site.ts.

@@ -1,0 +1,24 @@
+# Marcia Veredita · Rediseño web (DEMO COMERCIAL NO OFICIAL)
+No fue encargado, aprobado ni publicado por Marcia Veredita. Stack: Next.js 14, React, TypeScript, Tailwind, Lucide.
+
+## Ejecutar
+```
+npm install
+npm run dev     # http://localhost:3000
+npm run lint    # chequeo de tipos
+npm run build && npm start
+```
+
+## Instalar la versión actualizada en Windows
+No edites `tsconfig.json`. Descomprimí el ZIP completo en el Escritorio y reemplazá la carpeta anterior `MarciaWeb` por la carpeta nueva. Después, desde PowerShell, ejecutá `npm install` y `npm run dev`.
+
+Si el importador se queda detenido en `tsconfig.json`, cancelá ese paso y usá el reemplazo completo de la carpeta; el archivo ya está configurado y validado.
+
+## Dónde editar
+- `src/config/site.ts`: contacto, dirección, WhatsApp (y mensaje inicial), Instagram, ubicación (placeId), reseñas (rating/cantidad), flag `photosAreReal`.
+- `src/data/menu.ts`: categorías, productos y precios (ARS).
+- `public/images/`: fotos (ver LEEME.txt).
+- Opcional: `.env.local` con `NEXT_PUBLIC_GOOGLE_MAPS_KEY=...` para usar la Embed API oficial de Google Maps.
+
+## Desplegar (Vercel)
+Subí el repo a GitHub, importalo en vercel.com y deployá (sin configuración extra). También sirve Netlify o `npm run build && npm start` en un VPS.
